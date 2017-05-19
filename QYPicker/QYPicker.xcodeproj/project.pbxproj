@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53A2A261EC584A000754E3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A2A251EC584A000754E3A /* main.m */; };
+		A53A2A291EC584A000754E3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A2A281EC584A000754E3A /* AppDelegate.m */; };
+		A53A2A2C1EC584A000754E3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A2A2B1EC584A000754E3A /* ViewController.m */; };
+		A53A2A2F1EC584A000754E3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53A2A2D1EC584A000754E3A /* Main.storyboard */; };
+		A53A2A311EC584A000754E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53A2A301EC584A000754E3A /* Assets.xcassets */; };
+		A53A2A341EC584A000754E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53A2A321EC584A000754E3A /* LaunchScreen.storyboard */; };
+		A5508CC61ECEE75E005E67E4 /* QYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5508CC11ECEE75E005E67E4 /* QYDatePickerView.m */; };
+		A5508CC71ECEE75E005E67E4 /* QYDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5508CC21ECEE75E005E67E4 /* QYDatePickerView.xib */; };
+		A5508CC81ECEE75E005E67E4 /* QYRegionPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5508CC41ECEE75E005E67E4 /* QYRegionPickerView.m */; };
+		A5508CC91ECEE75E005E67E4 /* QYRegionPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5508CC51ECEE75E005E67E4 /* QYRegionPickerView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A53A2A211EC584A000754E3A /* QYPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53A2A251EC584A000754E3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53A2A271EC584A000754E3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A53A2A281EC584A000754E3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A53A2A2A1EC584A000754E3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A53A2A2B1EC584A000754E3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A53A2A2E1EC584A000754E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53A2A301EC584A000754E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53A2A331EC584A000754E3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53A2A351EC584A000754E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5508CC01ECEE75E005E67E4 /* QYDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDatePickerView.h; sourceTree = "<group>"; };
+		A5508CC11ECEE75E005E67E4 /* QYDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDatePickerView.m; sourceTree = "<group>"; };
+		A5508CC21ECEE75E005E67E4 /* QYDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYDatePickerView.xib; sourceTree = "<group>"; };
+		A5508CC31ECEE75E005E67E4 /* QYRegionPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYRegionPickerView.h; sourceTree = "<group>"; };
+		A5508CC41ECEE75E005E67E4 /* QYRegionPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYRegionPickerView.m; sourceTree = "<group>"; };
+		A5508CC51ECEE75E005E67E4 /* QYRegionPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYRegionPickerView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53A2A1E1EC584A000754E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53A2A181EC584A000754E3A = {
+			isa = PBXGroup;
+			children = (
+				A53A2A231EC584A000754E3A /* QYPicker */,
+				A53A2A221EC584A000754E3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53A2A221EC584A000754E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53A2A211EC584A000754E3A /* QYPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53A2A231EC584A000754E3A /* QYPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A5508CBF1ECEE75E005E67E4 /* QYPicker */,
+				A53A2A271EC584A000754E3A /* AppDelegate.h */,
+				A53A2A281EC584A000754E3A /* AppDelegate.m */,
+				A53A2A2A1EC584A000754E3A /* ViewController.h */,
+				A53A2A2B1EC584A000754E3A /* ViewController.m */,
+				A53A2A2D1EC584A000754E3A /* Main.storyboard */,
+				A53A2A301EC584A000754E3A /* Assets.xcassets */,
+				A53A2A321EC584A000754E3A /* LaunchScreen.storyboard */,
+				A53A2A351EC584A000754E3A /* Info.plist */,
+				A53A2A241EC584A000754E3A /* Supporting Files */,
+			);
+			path = QYPicker;
+			sourceTree = "<group>";
+		};
+		A53A2A241EC584A000754E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A53A2A251EC584A000754E3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5508CBF1ECEE75E005E67E4 /* QYPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A5508CC01ECEE75E005E67E4 /* QYDatePickerView.h */,
+				A5508CC11ECEE75E005E67E4 /* QYDatePickerView.m */,
+				A5508CC21ECEE75E005E67E4 /* QYDatePickerView.xib */,
+				A5508CC31ECEE75E005E67E4 /* QYRegionPickerView.h */,
+				A5508CC41ECEE75E005E67E4 /* QYRegionPickerView.m */,
+				A5508CC51ECEE75E005E67E4 /* QYRegionPickerView.xib */,
+			);
+			path = QYPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53A2A201EC584A000754E3A /* QYPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53A2A381EC584A000754E3A /* Build configuration list for PBXNativeTarget "QYPicker" */;
+			buildPhases = (
+				A53A2A1D1EC584A000754E3A /* Sources */,
+				A53A2A1E1EC584A000754E3A /* Frameworks */,
+				A53A2A1F1EC584A000754E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYPicker;
+			productName = QYPicker;
+			productReference = A53A2A211EC584A000754E3A /* QYPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53A2A191EC584A000754E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YannChee;
+				TargetAttributes = {
+					A53A2A201EC584A000754E3A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KWS4G3Y399;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A53A2A1C1EC584A000754E3A /* Build configuration list for PBXProject "QYPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53A2A181EC584A000754E3A;
+			productRefGroup = A53A2A221EC584A000754E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53A2A201EC584A000754E3A /* QYPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53A2A1F1EC584A000754E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5508CC91ECEE75E005E67E4 /* QYRegionPickerView.xib in Resources */,
+				A53A2A341EC584A000754E3A /* LaunchScreen.storyboard in Resources */,
+				A53A2A311EC584A000754E3A /* Assets.xcassets in Resources */,
+				A5508CC71ECEE75E005E67E4 /* QYDatePickerView.xib in Resources */,
+				A53A2A2F1EC584A000754E3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53A2A1D1EC584A000754E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53A2A2C1EC584A000754E3A /* ViewController.m in Sources */,
+				A5508CC81ECEE75E005E67E4 /* QYRegionPickerView.m in Sources */,
+				A53A2A291EC584A000754E3A /* AppDelegate.m in Sources */,
+				A5508CC61ECEE75E005E67E4 /* QYDatePickerView.m in Sources */,
+				A53A2A261EC584A000754E3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A53A2A2D1EC584A000754E3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53A2A2E1EC584A000754E3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53A2A321EC584A000754E3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53A2A331EC584A000754E3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53A2A361EC584A000754E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A53A2A371EC584A000754E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53A2A391EC584A000754E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KWS4G3Y399;
+				INFOPLIST_FILE = QYPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YannChee.QYPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A53A2A3A1EC584A000754E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KWS4G3Y399;
+				INFOPLIST_FILE = QYPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YannChee.QYPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53A2A1C1EC584A000754E3A /* Build configuration list for PBXProject "QYPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53A2A361EC584A000754E3A /* Debug */,
+				A53A2A371EC584A000754E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53A2A381EC584A000754E3A /* Build configuration list for PBXNativeTarget "QYPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53A2A391EC584A000754E3A /* Debug */,
+				A53A2A3A1EC584A000754E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53A2A191EC584A000754E3A /* Project object */;
+}
