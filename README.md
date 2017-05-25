@@ -5,7 +5,10 @@
 
 #使用方法:
 
-普通选择,数据源数组由外界决定
+- 1.调用工厂方法创建,设置frame
+- 2.设置数据源数组
+- 3.设置选择确定的block
+
 ```
 - (IBAction)btn1Click:(UIButton *)sender {
     QYRegionPickerView *pickerV = [QYRegionPickerView regionView];
