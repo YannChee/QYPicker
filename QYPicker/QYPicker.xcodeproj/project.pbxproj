@@ -68,7 +68,7 @@
 		A53A2A231EC584A000754E3A /* QYPicker */ = {
 			isa = PBXGroup;
 			children = (
-				A5508CBF1ECEE75E005E67E4 /* QYPicker */,
+				A5508CBF1ECEE75E005E67E4 /* QYPickerView */,
 				A53A2A271EC584A000754E3A /* AppDelegate.h */,
 				A53A2A281EC584A000754E3A /* AppDelegate.m */,
 				A53A2A2A1EC584A000754E3A /* ViewController.h */,
@@ -90,7 +90,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A5508CBF1ECEE75E005E67E4 /* QYPicker */ = {
+		A5508CBF1ECEE75E005E67E4 /* QYPickerView */ = {
 			isa = PBXGroup;
 			children = (
 				A5508CC01ECEE75E005E67E4 /* QYDatePickerView.h */,
@@ -100,6 +100,7 @@
 				A5508CC41ECEE75E005E67E4 /* QYRegionPickerView.m */,
 				A5508CC51ECEE75E005E67E4 /* QYRegionPickerView.xib */,
 			);
+			name = QYPickerView;
 			path = QYPicker;
 			sourceTree = "<group>";
 		};
