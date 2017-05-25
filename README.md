@@ -4,7 +4,8 @@
 ![](http://upload-images.jianshu.io/upload_images/1216368-85d575593d9ed27d.gif?imageMogr2/auto-orient/strip)
 
 #使用方法:
-##普通选择,数据源数组由外界决定
+
+普通选择,数据源数组由外界决定
 ```
 - (IBAction)btn1Click:(UIButton *)sender {
     QYRegionPickerView *pickerV = [QYRegionPickerView regionView];
@@ -21,7 +22,7 @@
 ```
 
 
-##日期选择
+日期选择
 
 ```
 
